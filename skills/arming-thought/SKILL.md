@@ -5,9 +5,7 @@ description: |
   English: Trigger at the start of each new top-level conversation to establish the core methodology and select downstream skills only when clearly useful. Skip this skill when you are a delegated sub-agent handling a narrow, concrete task.
 ---
 
-<subagent停止>
-如果你是作为子 agent 被派遣执行具体任务的，跳过此 skill。
-</subagent停止>
+> **子 agent：直接跳过此 skill。** 本 skill 已在 description 字段中注明了跳过条件；此处仅作可读性提示。
 
 # 武装思想
 
